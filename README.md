@@ -1,1 +1,0 @@
-# projeto-front-1tri-lavanderia
