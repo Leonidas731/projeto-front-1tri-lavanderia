@@ -1,0 +1,13 @@
+.titulo{
+    color: rgb(54, 103, 240);
+}
+.Email{
+    background-color: rgb(59, 46, 177);
+    border: papayawhip;
+    border-radius:5px;
+}
+.Senha{
+    background-color: rgb(59, 46, 177);
+    border: papayawhip;
+    border-radius:5px;
+}
