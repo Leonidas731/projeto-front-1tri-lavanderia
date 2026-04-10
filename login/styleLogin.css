@@ -1,0 +1,23 @@
+.titulo{
+    color: rgb(0, 0, 0);
+     text-align: center;
+}
+.email{
+    background-color: rgb(59, 46, 177);
+    border: papayawhip;
+    border-radius:5px;
+text-align:right
+}
+.senha{
+    background-color: rgb(59, 46, 177);
+    border: papayawhip;
+    border-radius:5px;
+text-align: center;
+}
+.entrar{
+background-color: rgb(255, 252, 252);
+text-align: center;
+}
+body{ 
+    background-color: hsl(240, 64%, 58%);
+}
