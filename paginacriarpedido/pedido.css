@@ -1,20 +1,51 @@
-h1{
-    font-display: var(zetta);
-    font-size: 75px;
-}
-
-.fundo_principal{ 
-width: 1200px;
-height: 700px;
-background-color: rgb(0, 0 ,0 );
-border-radius: 1cqi  ;
-
-}
-
 body {
-    text-align: center;
-    flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 50px;
+    background-color: rgb(38, 38 ,38);
 }
+
+
+
+.fundo_secundário_cima{
+    width: 500px;
+    height: 90px;
+    background-color:rgb(29, 91, 245);
+    border-radius: 20px;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+
+.fundo_principal{ 
+width: 1200px;
+height: 600px;
+background-color: rgb(67,66, 66);
+border-radius: 60px;
+}
+
+h1{
+    font-family: 'Zetta', sans-serif;
+    color:oldlace;
+    font-size: xx-large;
+    margin-top: 30px;
+}
+
+P{
+    font-family: 'Zetta', sans-serif;
+    color: oldlace;
+    font-size: xx-large;
+    margin-top: 10px;
+}
+
+    .fundo_azul_dofundo{
+        width: 1100px;
+        height: 500px;
+        background-color: rgb(15,41, 107);
+        border-radius: 60px;
+        margin-top: 10px;
+        margin-left: 50px;
+    }

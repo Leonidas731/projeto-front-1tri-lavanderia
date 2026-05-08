@@ -1,0 +1,213 @@
+   * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background-color: #18181b;     /* zinc-950 */
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  font-family: 'Zetta', sans-serif;
+}
+
+/* Container Principal */
+.container {
+  width: 100%;
+  max-width: 428px;
+  margin: 0 auto;
+  background-color: #27272a;     /* zinc-900 */
+  border-radius: 28px;           /* rounded-3xl */
+  overflow: hidden;
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.5);
+  border: 1px solid #3f3f46;     /* zinc-800 */
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: center;
+  padding-top: 32px;
+  padding-bottom: 24px;
+}
+
+.logo {
+  background-color: #2563eb;     /* blue-600 */
+  color: white;
+  padding: 16px 40px;
+  border-radius: 9999px;         /* rounded-full */
+  font-size: 24px;
+  font-family: 'Zetta', sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.3);
+}
+
+/* Botões Principais */
+.main-buttons {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  padding: 0 20px 20px;
+}
+
+.btn {
+    font-family: 'Zetta', sans-serif;
+  padding: 14px 32px;
+  border-radius: 9999px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: none;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+.btn-blue {
+  background-color: #3b82f6;
+}
+
+.btn-blue:hover {
+  background-color: #2563eb;
+}
+
+.btn-emerald {
+  background-color: #10b981;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-emerald:hover {
+  background-color: #059669;
+}
+
+.btn-violet {
+  background-color: #7c3aed;
+}
+
+.btn-violet:hover {
+  background-color: #6d28d9;
+}
+
+.btn-zinc {
+  background-color: #27272a;
+}
+
+.btn-zinc:hover {
+  background-color: #3f3f46;
+}
+
+/* Área de Busca */
+.search-area {
+  display: flex;
+  gap: 12px;
+  padding: 0 20px 24px;
+}
+
+.search-input {
+  flex: 1;
+  background-color: #18181b;     /* zinc-800 */
+  border: 1px solid #3f3f46;     /* zinc-700 */
+  border-radius: 20px;           /* rounded-2xl */
+  padding: 16px 24px 16px 52px;
+  font-size: 16px;
+  outline: none;
+  color: white;
+}
+
+.search-input:focus {
+  border-color: #3b82f6;
+}
+
+/* Modal */
+.modal {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background-color: #27272a;
+  border-radius: 24px;
+  width: 90%;
+  max-width: 380px;
+  padding: 24px;
+}
+
+.modal-close {
+  width: 40px;
+  height: 40px;
+  background-color: #27272a;
+  border: none;
+  border-radius: 16px;
+  font-size: 22px;
+  color: white;
+  cursor: pointer;
+  margin-left: auto;
+  display: block;
+}
+
+.modal-close:hover {
+  background-color: #3f3f46;
+}
+
+.modal-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.modal-buttons button {
+  flex: 1;
+  padding: 16px;
+  border-radius: 16px;
+  font-weight: 600;
+}
+     
+   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+       
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+        }
+       
+        .card {
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+       
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+        }
+       
+        .search-input {
+            transition: all 0.2s ease;
+        }
+       
+        .search-input:focus {
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+        }
+       
+        .modal {
+            animation: modalPop 0.3s ease forwards;
+        }
+       
+        @keyframes modalPop {
+            from {
+                opacity: 0;
+                transform: scale(0.95) translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1) translateY(0);
+            }
+        }
