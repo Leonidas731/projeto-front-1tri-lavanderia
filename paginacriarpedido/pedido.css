@@ -1,1 +1,20 @@
-h1{font-display: var(zetta);}
+h1{
+    font-display: var(zetta);
+    font-size: 75px;
+}
+
+.fundo_principal{ 
+width: 1200px;
+height: 700px;
+background-color: rgb(0, 0 ,0 );
+border-radius: 1cqi  ;
+
+}
+
+body {
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

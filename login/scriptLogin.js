@@ -6,7 +6,20 @@ function validarELogar() {
         alert("Por favor, preencha todos os campos!");
         return;
     }
+    console.log("Função validarELogar() foi chamada");
+    console.log("URL de redirecionamento: ../paginaInicialCliente/cliente.html");
     
+    // Teste 1: Verifica se a URL está correta
+    const url = "../paginaInicialCliente/cliente.html";
+    console.log("Tentando redirecionar para: " + url);
+    
+    // Teste 2: Tenta o redirecionamento
+    try {
+        window.location.href = url;
+        console.log("Redirecionamento executado");
+    } catch(error) {
+        console.error("Erro ao redirecionar: " + error);
+    }
     logar();
 }
 
