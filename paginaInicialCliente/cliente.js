@@ -169,7 +169,6 @@ function verDetalhes(id) {
             </div>
         </div>
     `;
-
     document.getElementById('modal-conteudo').innerHTML = conteudo;
     document.getElementById('modal').classList.remove('hidden');
     document.getElementById('modal').classList.add('flex');

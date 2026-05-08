@@ -6,12 +6,7 @@ function validarELogar() {
         alert("Por favor, preencha todos os campos!");
         return;
     }
-    
-    logar();
-}
-
-function logar() {
-    console.log("Função logar() foi chamada");
+    console.log("Função validarELogar() foi chamada");
     console.log("URL de redirecionamento: ../paginaInicialCliente/cliente.html");
     
     // Teste 1: Verifica se a URL está correta
@@ -25,14 +20,16 @@ function logar() {
     } catch(error) {
         console.error("Erro ao redirecionar: " + error);
     }
+    logar();
 }
+
 
 function log() {
     console.log("Função logar() foi chamada");
-    console.log("URL de redirecionamento: ../areaFuncionario/index.html");
+    console.log("URL de redirecionamento: ../logindocolaborador/funcionarioindex.html");
     
     // Teste 1: Verifica se a URL está correta
-    const url = "../areaFuncionario/index.html";
+    const url = "../logindocolaborador/funcionarioindex.html";
     console.log("Tentando redirecionar para: " + url);
     
     // Teste 2: Tenta o redirecionamento

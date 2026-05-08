@@ -1,0 +1,49 @@
+.titulo{
+    color: rgb(0, 0, 0);
+     text-align: center;
+     margin-top: 10px;
+}
+.email{
+    background-color: rgb(59, 46, 177);
+    border: rgb(0, 0, 0);
+    border-radius:5px;
+text-align:center
+}
+.senha{
+    background-color: rgb(59, 46, 177);
+    border: rgb(0, 0, 0);
+    border-radius:5px;
+text-align: center;
+}
+.entrar{
+background-color: rgb(255, 252, 252);
+text-align: center;
+}
+body{ 
+    background-color: hsl(240, 44%, 8%);
+}
+.context{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 170px;
+    border-radius: 10px;
+}
+.entrar{
+    background-color: rgb(196, 196, 196);
+    border: 1px solid rgb(131, 131, 131);
+    border-radius:4px;
+    text-align: center;
+    width: 140px;
+    height: 70px;
+    margin-left: 130px;
+    margin-top: 100px;
+    font-size:large ;
+}
+.email, .senha{
+    width: 300px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
