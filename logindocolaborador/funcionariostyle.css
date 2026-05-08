@@ -1,48 +1,65 @@
+body{
+    background: url(../images/funfuncionario.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: #ffffff;
+}
+
+.context{
+    width: 500px;
+    height: 300px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    background: rgba(255, 255, 255,);
+    backdrop-filter: blur(3px);
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.1);
+}
 .titulo{
-    color: rgb(0, 0, 0);
+    color: rgb(163, 212, 232);
      text-align: center;
      margin-top: 10px;
 }
 .email{
-    background-color: rgb(59, 46, 177);
-    border: rgb(0, 0, 0);
-    border-radius:5px;
-text-align:center
+    width: 380px;
+    border: 2px solid rgb(163, 212, 232);
+    border-radius: 20px;
+    background: rgba(0, 55, 82, 0.376);
+    backdrop-filter: blur(10px);
+    color: rgb(208, 238, 255);
+
 }
 .senha{
-    background-color: rgb(59, 46, 177);
-    border: rgb(0, 0, 0);
-    border-radius:5px;
-text-align: center;
+    width: 380px;
+    border: 2px solid rgb(163, 212, 232);
+    border-radius: 20px;
+    background: rgba(0, 55, 82, 0.376);
+    backdrop-filter: blur(10px);
+    color: rgb(208, 238, 255);
+
 }
+
+
 .entrar{
-background-color: rgb(255, 252, 252);
-text-align: center;
-}
-body{ 
-    background-color: hsl(240, 44%, 8%);
-}
-.context{
-    background-color: rgb(255, 255, 255);
-    width: 400px;
-    height: 400px;
-    margin: auto;
-    margin-top: 170px;
-    border-radius: 10px;
-}
-.entrar{
-    background-color: rgb(196, 196, 196);
-    border: 1px solid rgb(131, 131, 131);
-    border-radius:4px;
-    text-align: center;
+    border: 2px solid  rgb(163, 212, 232);
+    border-radius: 20px;
+    background: rgba(0, 25, 82, 0.376);
+    backdrop-filter: blur(3px);
     width: 140px;
     height: 70px;
-    margin-left: 130px;
-    margin-top: 100px;
+    margin-left: 177px;
+    margin-top: 30px;
     font-size:large ;
+    font-family: "Roboto", sans-serif;
+    color: rgb(199, 255, 242);
+
 }
 .email, .senha{
-    width: 300px;
+    width: 385px;
     height: 30px;
     margin-left: 50px;
     margin-top: 20px;

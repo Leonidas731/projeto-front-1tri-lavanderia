@@ -55,25 +55,27 @@ body{
     font-size:large ;
     font-family: "Roboto", sans-serif;
     color: rgb(199, 255, 242);
-
+    box-shadow:  0 0 5px rgba(0, 255, 234, 0.595);
+    transition: 0.5s;
+}
+.entrar:hover{
+    background: rgba(0, 89, 104, 0.657);
+    border: 2px solid rgba(0, 255, 234, 0.49);
+    color: rgb(162, 255, 233);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(0, 255, 234, 0.595);
 }
 .email, .senha{
     width: 300px;
     height: 30px;
     margin-left: 50px;
     margin-top: 20px;
+    color: rgb(199, 255, 242);;
 }
-<<<<<<< HEAD
 .login_do_colaborador{
-    background-color: rgb(196, 192, 255);
-    border: rgb(42, 63, 255);
-    border-radius:5px;
-=======
-.area_do_colaborador{
     background: rgba(0, 192, 186, 0.534);
     border: 2px solid rgba(0, 255, 234, 0.49);
     border-radius: 20px;
->>>>>>> 9a3aa3b1d87f800a03cf40113fa971e790b02aeb
     text-align: center;
     width: 100px;
     height: 50px;
@@ -81,5 +83,3 @@ body{
     margin-top: 100px;
     color: rgb(162, 255, 233);
 }
-    
-
